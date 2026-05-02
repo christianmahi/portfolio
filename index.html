@@ -4,155 +4,284 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahi-Mezack Desire Christian - Portfolio</title>
+    <meta name="description" content="Étudiant en L2 Informatique, en recherche d'un stage en bases de données.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Mahi-Mezack Desire Christian</h1>
-        <nav class="menu">
-            <a href="#apropos">À propos</a>
-            <a href="#projets">Projets</a>
-            <a href="#competences">Compétences</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        
-    </header>
-    <main>
-        <section id="accueil">
-            <h2>
-                Étudiant en L2 Informatique à la recherche d’un stage en bases de données
-            </h2>
-            <p>
-                Je m’intéresse principalement au SQL et à l’administration des données
-            </p>
-        </section>
-        <section id="apropos">
-            <h2>
-                À propos
-            </h2>
-            <p>
-                Je suis étudiant en L2 Informatique et je m’intéresse particulièrement aux bases de données. Je suis plus à l’aise en SQL qu’en développement web et je recherche un stage orienté administration des données ou gestion de bases de données.
-            </p>
-        </section>
-        <section id="projets">
-            <h2>
-                Projets
-            </h2>
-            <ul>
-                <li>
-                    <h3>
-                        Boutique en ligne en React
-                    </h3>
-                    <p>
-                        Site de vente construit en React avec catalogue, fiche produit et panier. L'occasion de travailler la structure d'une app front et la gestion d'état sur un parcours d'achat complet.
-                    </p>
-                    <p>
-                        CSS · React
-                    </p>
-                    <p>
-                        GitHub a avenir
-                    </p>
-                </li>
-                
-                <li>
-                    <h3>Jeu développé en React</h3>
-                    <p>
-                        Jeu interactif développé entièrement en React — logique de jeu, boucle de rendu et gestion d'événements, sans bibliothèque graphique externe
-                    </p>
-                    <p>
-                        React · JavaScript · CSS
-                    </p>
-                    <p>
-                        GitHub : à venir
-                    </p>
-                </li>
 
-                <li>
-                    <h3>Tower Defense en Java</h3>
-                    <p>
-                        Jeu Tower Defense réalisé en équipe dans le cadre d’un projet universitaire. Ce projet m’a permis de travailler la programmation orientée objet, l’organisation du code et la collaboration en groupe.
-                    </p>
-                    <p>
-                        Java
-                    </p>
-                    <p>
-                        GitHub : à venir
-                    </p>
-                </li>
-            </ul>
-        </section>
-        <section id="competences">
-            <h2>
-                Compétences
-            </h2>
-            <ul>
-                <li>SQL</li>
-                <li>Linux</li>
-                <li>Bases en Java</li>
-                <li>Bases en Python</li>
-                <li>Bases en React</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <p class="label">— CONTACT</p>
-            <h2>
-                Un stage à proposer ? Parlons-en.
-            </h2>
-            <p class="text">Je suis disponible pour échanger autour d’un stage orienté SQL, administration des données ou gestion de bases de données.</p>
-            <div>
-                <div>
-                    <p class="titre">
-                    Email
-                    </p>
-                    <p class="valeur">
-                        <a href="mailto:christianmahi6@yahoo.com" >
-                        christianmahi6@yahoo.com
-                        </a>
-                    </p>
-                    
-                </div>
-                <div>
-                    <p class="titre">
-                    Téléphone
-                    </p>
-                    <p class="valeur">
-                        07 58 54 80 84
-                    </p>
-            
-                </div>
-                <div>
-                    <p class="titre">
-                    GitHub
-                    </p>
-                    <p class="valeur">
-                        <a href="https://github.com/christianmahi" target="_blank" rel="noopener noreferrer"> github.com/christianmahi</a>
-                    </p>
-                </div>
-                <div>
-                    <p class="titre">
-                        CV
-                    </p>
-                    <p class="valeur">
-                        <a href="cv/Mahi Mezack desire Christian cv.pdf">
-                        Télécharger mon CV
-                        </a>
-                    </p>
-                    
-                </div>
-                
+    <header>
+        <div class="container header-content">
+            <div class="status">
+                <span class="dot"></span>
+                <span>disponible pour un stage — 2026</span>
             </div>
-            
+
+            <nav class="menu">
+                <a href="#projets">projets</a>
+                <a href="#competences">compétences</a>
+                <a href="#contact">contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="accueil" class="hero">
+            <div class="container">
+
+                <p class="small-label">~/ portfolio _</p>
+
+                <h1>
+                    Mahi-Mezack<br>
+                    <span>Desire Christian</span>
+                </h1>
+
+                <p class="hero-text">
+                    Étudiant en <strong>L2 Informatique</strong>, je m’intéresse principalement
+                    aux bases de données SQL et à l’administration des données.
+                </p>
+
+                <p class="hero-subtext">
+                    Actuellement en recherche d’un stage pour travailler sur des projets concrets,
+                    en particulier autour du SQL, de la gestion de données et du développement.
+                </p>
+
+                <div class="buttons">
+                    <a href="#contact" class="button-primary">me contacter</a>
+                    <a href="#projets" class="button-secondary">voir les projets</a>
+                </div>
+
+            </div>
         </section>
+
+        <section class="stats">
+            <div class="container stats-grid">
+
+                <div>
+                    <p class="stat-label">ANNÉE</p>
+                    <p class="stat-value">L2 Informatique</p>
+                </div>
+
+                <div>
+                    <p class="stat-label">LOCALISATION</p>
+                    <p class="stat-value">Hauts-de-France</p>
+                </div>
+
+                <div>
+                    <p class="stat-label">FOCUS</p>
+                    <p class="stat-value">SQL · Bases de données</p>
+                </div>
+
+                <div>
+                    <p class="stat-label">RECHERCHE</p>
+                    <p class="stat-value accent">Stage 2026</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projets">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Projets</h2>
+                    <p>— 3 sélectionnés</p>
+                </div>
+
+                <article class="project">
+                    <div class="project-number">
+                        <p>— 01</p>
+                        <p class="project-type">E-COMMERCE</p>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Boutique en ligne</h3>
+
+                        <p>
+                            Site de vente construit en React avec catalogue, fiche produit et panier. L'occasion de travailler la structure d'une app front et la gestion d'état sur un parcours d'achat complet. Et une base de données fournis avec.
+                        </p>
+
+                        <div class="tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/christianmahi/Boutique-React" target="_blank" rel="noopener noreferrer">
+                                GitHub
+                            </a>
+
+                            <a href="https://christianmahi.github.io/Boutique-React/" target="_blank" rel="noopener noreferrer">
+                                Démo
+                            </a>
+                        </div>
+                        
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-number">
+                        <p>— 02</p>
+                        <p class="project-type">JEU</p>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Jeu React</h3>
+
+                        <p>
+                            Jeu interactif développé en React. Ce projet m’a permis de travailler
+                            la gestion des événements, l’état des composants et l’affichage dynamique.
+                        </p>
+
+                        <div class="tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <p class="project-link">GitHub : à venir</p>
+                    </div>
+                </article>
+
+                <article class="project">
+                    <div class="project-number">
+                        <p>— 03</p>
+                        <p class="project-type">JAVA</p>
+                    </div>
+
+                    <div class="project-content">
+                        <h3>Tower Defense en Java</h3>
+
+                        <p>
+                            Jeu Tower Defense réalisé en équipe dans le cadre d’un projet universitaire.
+                            Ce projet m’a permis de travailler la programmation orientée objet,
+                            l’organisation du code et la collaboration.
+                        </p>
+
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>POO</span>
+                            <span>Travail en équipe</span>
+                        </div>
+
+                        <p class="project-link">GitHub : à venir</p>
+                    </div>
+                </article>
+
+                <div class="todo">
+                    <p>
+                        <span>// projet sql a venir</span>
+                        a venir
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="competences">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Compétences</h2>
+                    <p>— outils et bases</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card highlight">
+                        <h3>Bases de données</h3>
+                        <ul>
+                            <li>SQL</li>
+                            <li>Modélisation MCD / MLD</li>
+                            <li>Requêtes SQL</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Développement</h3>
+                        <ul>
+                            <li>Bases en Java</li>
+                            <li>Bases en Python</li>
+                            <li>Bases en React</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card">
+                        <h3>Outils</h3>
+                        <ul>
+                            <li>Linux</li>
+                            <li>Git</li>
+                            <li>GitHub</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container contact-container">
+
+                <p class="small-label">— CONTACT</p>
+
+                <h2>
+                    Un stage en bases de données à proposer ?<br>
+                    <span>Parlons-en.</span>
+                </h2>
+
+                <p class="contact-text">
+                    Je suis disponible pour échanger autour d’un stage orienté SQL,
+                    administration des données ou gestion de bases de données.
+                </p>
+
+                <div class="contact-list">
+
+                    <a href="mailto:christianmahi6@yahoo.com" class="contact-item">
+                        <div>
+                            <p class="contact-title">email</p>
+                            <p class="contact-value">christianmahi6@yahoo.com</p>
+                        </div>
+                        <span>↗</span>
+                    </a>
+
+                    <div class="contact-item">
+                        <div>
+                            <p class="contact-title">téléphone</p>
+                            <p class="contact-value">07 58 54 80 84</p>
+                        </div>
+                    </div>
+
+                    <a href="https://github.com/christianmahi" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <div>
+                            <p class="contact-title">github</p>
+                            <p class="contact-value">github.com/christianmahi</p>
+                        </div>
+                        <span>↗</span>
+                    </a>
+
+                    <a href="cv/Mahi Mezack desire Christian cv.pdf" class="contact-item">
+                        <div>
+                            <p class="contact-title">cv</p>
+                            <p class="contact-value">télécharger le CV</p>
+                        </div>
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
     </main>
+
     <footer>
-        <p>
-            © 2026 Mahi-Mezack Desire Christian
-        </p>
-        <p>
-            Portfolio réalisé en HTML et CSS
-        </p>
+        <div class="container footer-content">
+            <p>© 2026 Mahi-Mezack Desire Christian</p>
+            <p>construit en HTML et CSS</p>
+        </div>
     </footer>
-    
+
 </body>
 </html>
-
