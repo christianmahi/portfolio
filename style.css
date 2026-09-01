@@ -152,7 +152,7 @@ header {
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -475,4 +475,8 @@ footer p {
     .footer-content {
         flex-direction: column;
     }
+}
+
+.skill-card:last-child:nth-child(3n + 1) {
+    grid-column: 1 / -1;
 }
